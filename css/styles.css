@@ -595,3 +595,30 @@ img {
         height: 24px; */
         fill: var(--icon-color, #f4f4fd);
 }
+
+.modal-overley {
+        background-color: rgba(0, 0, 0, 0.5);
+        /*Чорний колір із 50% прозорістю */
+        /* background-color: transparent; повністю прозорий */
+        opacity: 0;
+        /*повна прозорість елемента */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        pointer-events: none;
+}
+
+.modal-overley.is-open {
+        opacity: 1;
+        pointer-events: auto;
+}
+
+.modal {
+        background-color: #fff;
+}
