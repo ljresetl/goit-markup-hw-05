@@ -802,7 +802,7 @@ img {
 
 }
 
-input:focus {
+.modal-input:focus {
         border-color: #4D5AE5;
 }
 
