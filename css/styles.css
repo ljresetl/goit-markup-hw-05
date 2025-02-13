@@ -746,14 +746,16 @@ img {
 
 /* Поля введення */
 .input-wrapper {
-        display: flex;
+        /* display: flex;
         align-items: center;
         position: relative;
         width: 360px;
         height: 40px;
         border: 1px solid #4d5ae5;
-        border-radius: 4px;
+        border-radius: 4px; */
         margin-bottom: 8px;
+
+
 }
 
 
