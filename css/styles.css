@@ -722,14 +722,14 @@ img {
 .modal-close:hover {
         background-color: #404bbf;
         border: none;
-        fill: #ffffff
+        fill: #ffffff;
 
 }
 
 .modal-close:focus {
         background-color: #404bbf;
         border: none;
-        fill: #ffffff
+        fill: #ffffff;
 }
 
 .modal-close svg {
