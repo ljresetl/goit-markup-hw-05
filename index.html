@@ -487,12 +487,22 @@
                     <use href="./images/icons-modal.svg#icon-email"></use>
                 </svg>
                 </div>
-    
-                <label class="modal-label" for="comment">Comment</label>
-                <textarea id="comment" class="modal-textarea" placeholder="Text input"></textarea>
-    
+    <div class="div-comment">
+        
+                    <label class="modal-label" for="user-comment">Comment</label>
+                <textarea id="user-comment" 
+                        name="user-comment" 
+                        class="modal-textarea" 
+                        placeholder="Text input">
+                </textarea>
+        
+    </div>
                 <div class="checkbox-wrapper">
-                    <input type="checkbox" id="privacy" class="modal-checkbox">
+                    <input type="checkbox" 
+                    id="user-privacy"
+                    value="true" 
+                    name="user-privacy"  
+                    class="modal-checkbox">
                     <label for="privacy" class="modal-checkbox-label">
                         I accept the terms and conditions of the
                         <a href="#" class="privacy-policy">Privacy Policy</a>
