@@ -744,6 +744,11 @@ img {
         margin-bottom: 4px;
 }
 
+.div-input-icon {
+        position: relative;
+        
+}
+
 /* Поля введення */
 .input-wrapper {
         /* display: flex;
