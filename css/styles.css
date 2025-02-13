@@ -598,9 +598,14 @@ img {
 
 /* Права частина футера (форма підписки) */
 .footer-right {
+        display: flex;
         align-items: right;
+
         text-align: right;
 }
+/* .right-div {
+display: block;
+}  */
 
 .right-p {
         margin-bottom: 16px;
