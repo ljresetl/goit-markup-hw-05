@@ -746,7 +746,7 @@ img {
 
 .div-input-icon {
         position: relative;
-        
+
 }
 
 /* Поля введення */
@@ -777,7 +777,7 @@ img {
 
 }
 
-.modal-input:focus {
+input:focus {
         border-color: #4D5AE5;
 }
 
