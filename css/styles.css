@@ -660,6 +660,24 @@ img {
         color: #fff;
 }
 
+
+/* Модал оверлей */
+.modal-overlay {
+        position: fixed;
+        /* Фіксуємо поверх сторінки */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        /* Додаємо затемнення */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        /* Виставляємо високий рівень */
+}
+
 /* Модальне вікно */
 .modal {
         position: absolute;
