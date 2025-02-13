@@ -885,8 +885,10 @@ input:focus {
 
 }
 
-input:checked {
-        
+input:checked + span {
+        background-color: #404bbf;
+        border: none;
+        fill: #F4F4FD;
 }
 
 .privacy-policy {
@@ -896,18 +898,17 @@ input:checked {
         color: #4d5ae5;
 }
 
-/* Ховер-ефект для чекбоксу */
+/* Ховер-ефект для чекбоксу 
 .checkbox-wrapper:hover {
         outline: 1px dashed #4d5ae5;
         outline-offset: 3px;
-}
+}*/
 
 /* Кнопка */
 .modal-button {
-        /* display: flex;
-        align-items: center; */
+        display: block;
         margin-left: 100px;
-        width: 169px;
+        min-width: 169px;
         height: 56px;
         background: #4d5ae5;
         border: none;
@@ -919,4 +920,5 @@ input:checked {
         text-align: center;
         color: #fff;
         cursor: pointer;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
