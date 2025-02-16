@@ -675,6 +675,17 @@ img {
         justify-content: center;
         align-items: center;
         z-index: 1000; /* Виставляємо високий рівень */
+
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+}
+
+.is-open {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
 }
 
 /* Модальне вікно */
@@ -760,6 +771,7 @@ img {
 
 /* Лейбли */
 .modal-label {
+        font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 12px;
         line-height: 1.17;
@@ -813,7 +825,8 @@ img {
         top: 50%;
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+        /* color: #404BBF; */
+        fill: #4d5ae5;
 }
 
 .input-icon:focus {
@@ -822,12 +835,20 @@ img {
 }
 
 .modal-input::placeholder {
-                font-weight: 400;
-                        font-size: 12px;
-                        line-height: 1.16667;
-                        letter-spacing: 0.04em;
-                        color: rgba(46, 47, 66, 0.4);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16667;
+        letter-spacing: 0.04em;
+        color: rgba(46, 47, 66, 0.4);
 }
+
+/* .modal-input:valid {
+        border-color: rgb(63, 140, 63);
+}
+
+.modal-input:invalid {
+        border-color: rgb(213, 21, 21);
+} */
 
 /* Текстове поле */
 .div-comment {
@@ -844,6 +865,7 @@ img {
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
+
         color: rgba(46, 47, 66, 0.4);
         border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 4px;
@@ -851,9 +873,6 @@ img {
         outline: transparent;
         resize: none;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
-        /* margin-bottom: 16px; */
 }
 
 .modal-textarea:focus {
@@ -874,6 +893,7 @@ img {
         align-items: center;
         gap: 8px;
         margin-bottom: 24px;
+        /* margin-right: 8px; */
 }
 
 .visually-hidden {
@@ -882,7 +902,6 @@ img {
         border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 2px;
         cursor: pointer;
-        /* margin-bottom: 24px; */
 }
 
 .modal-checkbox-label {
@@ -892,6 +911,7 @@ img {
         letter-spacing: 0.04em;
         color: #8e8f99;
         /* margin-bottom: 24px; */
+        /* margin-right: 8px; */
 }
 
 .label-span {
@@ -904,6 +924,7 @@ img {
         align-items: center;
         justify-content: center;
         fill: transparent;
+        margin-right: 8px;
 
 }
 /* 
