@@ -930,7 +930,8 @@ img {
         margin-right: 8px;
 }
 
-input:checked ~ label .label-span {
+
+.visually-hidden:checked + .modal-checkbox-label > .label-span {
         background-color: #404bbf;
         border: none;
         fill: #F4F4FD;
