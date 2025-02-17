@@ -715,7 +715,7 @@ img {
         border: none;
         cursor: pointer; 
         border-radius: 50%;
-        fill: #e7e9fc;
+        /* fill: #e7e9fc; */
         stroke-width: 1px;
         stroke: rgba(0, 0, 0, 0.1);
         width: 24px;
@@ -796,13 +796,6 @@ img {
 
 /* Поля введення */
 .input-wrapper {
-        /* display: flex;
-        align-items: center;
-        position: relative;
-        width: 360px;
-        height: 40px;
-        border: 1px solid #4d5ae5;
-        border-radius: 4px; */
         margin-bottom: 8px;
 
 
@@ -837,8 +830,6 @@ img {
         top: 50%;
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        /* color: #404BBF; */
-        /* fill: #4d5ae5; */
 }
 
 .input-icon:focus {
@@ -945,10 +936,6 @@ input:checked ~ label .label-span {
         fill: #F4F4FD;
 }
 
-/* input:checked~label .label-span .icon-checkbox {
-        fill: #F4F4FD;
-} */
-
 .privacy-policy {
         line-height: 1.33333;
         text-decoration: underline;
@@ -985,5 +972,5 @@ input:checked ~ label .label-span {
 
 .modal-button:hover .button-svg,
 .modal-button:focus .button-svg {
-        fill: #ffffff;
+        fill: #ffffff !important;
 }
