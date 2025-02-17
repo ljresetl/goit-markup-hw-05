@@ -942,11 +942,12 @@ img {
 input:checked ~ label .label-span {
         background-color: #404bbf;
         border: none;
-}
-
-input:checked~label .label-span .icon-checkbox {
         fill: #F4F4FD;
 }
+
+/* input:checked~label .label-span .icon-checkbox {
+        fill: #F4F4FD;
+} */
 
 .privacy-policy {
         line-height: 1.33333;
