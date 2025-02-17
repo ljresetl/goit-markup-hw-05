@@ -892,9 +892,11 @@ img {
 
 /* Чекбокс */
 .checkbox-wrapper {
-        display: flex;
+        /* display: flex;
         align-items: center;
         gap: 8px;
+        margin-bottom: 24px; */
+
         margin-bottom: 24px;
 }
 
@@ -918,7 +920,7 @@ img {
 }
 
 .label-span {
-        display: inline-flex;
+        /* display: inline-flex;
         align-items: center;
         justify-content: center;
         fill: transparent;
@@ -927,15 +929,41 @@ img {
         height: 16px;
         border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 2px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 
+
+        width: 16px;
+        height: 16px;
+        border-radius: 2px;
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        margin-right: 8px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        fill: transparent;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+ .input-check:checked + .modal-checkbox-label .label-span {
+         background-color: #404bbf;
+         border: none;
+         fill: #f4f4fd;
+ }
 
-.visually-hidden:checked + .modal-checkbox-label > .label-span {
-        background-color: #404bbf;
-        border: none;
-        fill: #F4F4FD;
+
+.modal-checkbox-label {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: #8e8f99;
+        align-items: center;
+}
+
+.modal-check-text a {
+        text-decoration: underline;
 }
 
 .privacy-policy {
@@ -962,17 +990,14 @@ img {
         color: #fff;
         cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        padding: 16px 32px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .modal-button:hover {
-        fill: #ffffff;
+        background: #404bbf;
 }
 
 .modal-button:focus {
-        fill: #ffffff;
+        background: #404bbf;
 }
-
-/* .modal-button:hover .button-svg,
-.modal-button:focus .button-svg {
-        fill: #ffffff !important;
-} */
