@@ -905,7 +905,6 @@ img {
         align-items: center;
         gap: 8px;
         margin-bottom: 24px;
-        /* margin-right: 8px; */
 }
 
 .visually-hidden {
@@ -922,8 +921,9 @@ img {
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8e8f99;
-        /* margin-bottom: 24px; */
-        /* margin-right: 8px; */
+        display: flex;
+        align-items: center;
+
 }
 
 .label-span {
@@ -937,11 +937,10 @@ img {
         justify-content: center;
         fill: transparent;
         margin-right: 8px;
-
 }
-/* 
-.icon-checkbox {
 
+/* .visually-hidden:checked + .label-span {
+        background-color: #31d0aa;
 } */
 
 input:checked + span {
@@ -956,12 +955,6 @@ input:checked + span {
         text-decoration-skip-ink: none;
         color: #4d5ae5;
 }
-
-/* Ховер-ефект для чекбоксу 
-.checkbox-wrapper:hover {
-        outline: 1px dashed #4d5ae5;
-        outline-offset: 3px;
-}*/
 
 /* Кнопка */
 .modal-button {
