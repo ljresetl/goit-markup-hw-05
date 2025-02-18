@@ -681,12 +681,12 @@ img {
         visibility: hidden;
         pointer-events: none;
 }
-
+/* 
 .is-open {
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
-}
+} */
 
 /* Модальне вікно */
 .modal {
@@ -734,8 +734,6 @@ img {
 .modal-close:hover svg,
 .modal-close:focus svg {
         fill: #ffffff;
-        background-color: #404bbf;
-        border: none;
 }
 
 .modal-close:hover {
