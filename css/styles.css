@@ -521,7 +521,7 @@ img {
         margin-right: 120px;
 }
 
-.main_logo {
+.main-logo-footer {
         font-weight: 700;
         font-size: 18px;
         text-transform: uppercase;
@@ -689,11 +689,11 @@ img {
         pointer-events: none;
 }
 
-/* .is-open {
+.is-open {
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
-} */
+}
 
 /* Модальне вікно */
 .modal {
@@ -736,10 +736,11 @@ img {
         margin-bottom: 24px;  */       
 }
 
-.modal-close:hover svg,
+/* .modal-close:hover svg,
 .modal-close:focus svg {
         fill: #ffffff;
-}
+
+} */
 
 .modal-close:hover {
         background-color: #404bbf;
