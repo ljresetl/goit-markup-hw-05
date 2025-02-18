@@ -528,10 +528,17 @@ img {
         color: #4d5ae5;
         letter-spacing: 0.03em;
         text-decoration: none;
+        font-family: "Raleway", sans-serif;
 }
 
-.main_logo span {
+.span-studio {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
         color: #f4f4fd;
+        font-family: "Raleway", sans-serif;
 }
 
 .text_p_footer {
@@ -682,11 +689,11 @@ img {
         pointer-events: none;
 }
 
-.is-open {
+/* .is-open {
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
-}
+} */
 
 /* Модальне вікно */
 .modal {
